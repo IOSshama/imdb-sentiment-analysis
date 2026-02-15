@@ -2,28 +2,6 @@
 
 A machine learning project that analyzes movie reviews and predicts whether they are positive or negative using Natural Language Processing (NLP) techniques.
 
-![Python](https://img.shields.io/badge/Python-3.13-blue.svg)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
----
-
-## 📋 Table of Contents
-
-- [About](#about)
-- [Dataset](#dataset)
-- [Project Pipeline](#project-pipeline)
-- [Results](#results)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Key Learnings](#key-learnings)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-
----
-
 ## 🎯 About
 
 This project demonstrates a complete machine learning workflow for **sentiment analysis** on movie reviews. The model classifies IMDB movie reviews as either **positive** or **negative** with **89.16% accuracy**.
@@ -146,25 +124,6 @@ predict_sentiment("Best movie I've ever seen! Incredible acting!")
 - **Matplotlib & Seaborn** - Data visualization
 - **WordCloud** - Text visualization
 - **Jupyter Notebook** - Interactive development environment
-
----
-
-## 📦 Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/imdb-sentiment-analysis.git
-cd imdb-sentiment-analysis
-```
-
-### 2. Install required packages
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn nltk wordcloud jupyter
-```
-
-### 3. Download the dataset
-
-Download the dataset from [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?resource=download) and place `IMDB Dataset.csv` in the project directory.
 
 ---
 

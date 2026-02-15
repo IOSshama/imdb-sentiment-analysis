@@ -160,20 +160,6 @@ print(predict_sentiment("This movie is amazing!"))
 
 ---
 
-## 📁 Project Structure
-```
-imdb-sentiment-analysis/
-│
-├── imdb_sentiment_analysis.ipynb   # Main Jupyter notebook
-├── IMDB Dataset.csv                # Dataset (download separately)
-├── sentiment_model.pkl             # Trained model
-├── tfidf_vectorizer.pkl            # TF-IDF vectorizer
-├── README.md                       # Project documentation
-└── requirements.txt                # Python dependencies
-```
-
----
-
 ## 💡 Key Learnings
 
 Throughout this project, I gained hands-on experience with:

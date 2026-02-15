@@ -103,13 +103,13 @@ Actual POS    [488]  [4551]
 ### Example Predictions
 ```python
 predict_sentiment("This movie was absolutely amazing!")
-# Output: POSITIVE 😊 (Confidence: 95.2%)
+# Output: POSITIVE (Confidence: 95.2%)
 
 predict_sentiment("Terrible film. Waste of time and money.")
-# Output: NEGATIVE 😞 (Confidence: 100.0%)
+# Output: NEGATIVE (Confidence: 100.0%)
 
 predict_sentiment("Best movie I've ever seen! Incredible acting!")
-# Output: POSITIVE 😊 (Confidence: 98.0%)
+# Output: POSITIVE (Confidence: 98.0%)
 ```
 
 ---
